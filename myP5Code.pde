@@ -12,5 +12,5 @@ draw = function(){
   background(255, 255, 255);
   fill(255, 0, 255);
   ellipse(mouseX, mouseY, 12, 12);
-  text(label, mouseX, mouseY);
+  text(label, mouseX+10, mouseY);
 };
